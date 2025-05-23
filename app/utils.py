@@ -18,7 +18,7 @@ def get_pixverse_headers() -> dict:
 def build_text2video_payload(prompt: str) -> dict:
     return {
         "prompt": prompt,
-        "duration": 8,  # Длительность: 5 или 8 секунд
+        "duration": 5,  # Длительность: 5 или 8 секунд
         "quality": "360p",  # Качество: 360p, 540p, 720p, 1080p
         "aspect_ratio": "16:9",  # Соотношение: 16:9, 4:3, 1:1, 3:4, 9:16
         "motion_mode": "normal",
